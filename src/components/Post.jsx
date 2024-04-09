@@ -34,7 +34,7 @@ export const Post = () => {
       <CardMedia
         component="img"
         height="20%"
-        image="https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg?cs=srgb&dl=appetizer-brunch-close-up-1095550.jpg&fm=jpg"
+        image="https://source.unsplash.com/random"
         alt="Paella dish"
       />
       <CardContent>

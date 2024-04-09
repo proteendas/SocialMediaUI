@@ -18,7 +18,7 @@ import { useState } from "react";
 import data from "./postItems.json";
 
 export const Rightbar = () => {
-  const itemData = useState(data);
+  const [itemData] = useState(data);
 
   return (
     <Box flex={2} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
@@ -77,7 +77,7 @@ export const Rightbar = () => {
             <ListItemAvatar>
               <Avatar
                 alt="Remy Sharp"
-                src="https://material-ui.com/static/images/avatar/3.jpg"
+                src="https://source.unsplash.com/random"
               />
             </ListItemAvatar>
             <ListItemText
@@ -100,7 +100,10 @@ export const Rightbar = () => {
           <Divider variant="inset" component="li" />
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
-              <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+              <Avatar
+                alt="Travis Howard"
+                src="https://source.unsplash.com/random"
+              />
             </ListItemAvatar>
             <ListItemText
               primary="Summer BBQ"
