@@ -18,7 +18,7 @@ import { useState } from "react";
 import data from "./postItems.json";
 
 export const Rightbar = () => {
-  const [itemData, setItemData] = useState(data);
+  const itemData = useState(data);
 
   return (
     <Box flex={2} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
