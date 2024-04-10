@@ -20,7 +20,7 @@ export const Post = () => {
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
-            R
+            DK
           </Avatar>
         }
         action={
@@ -28,7 +28,7 @@ export const Post = () => {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Sri Rajendra Prasad"
+        title="Dharmender Kapoor"
         subheader="April 08, 2024"
       />
       <CardMedia
@@ -39,9 +39,9 @@ export const Post = () => {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the
-          mussels, if you like.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+          architecto officiis ratione provident repellat repellendus nihil
+          aliquam a necessitatibus quod.
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
